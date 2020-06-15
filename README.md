@@ -18,6 +18,22 @@ Download spacy model for English language
 python3 -m spacy download en
 ```
 
+## Module Structure
+```
+.
+├── data
+│   └── Text Contracts
+├── keyphrase_extractor.py
+├── key_phrase_ranking
+│   ├── data_helper.py
+│   ├── __init__.py
+│   ├── key_phrase_rank.py
+│   ├── sent_structures.py
+│   └── text_reader.py
+├── Output.csv
+└── README.md
+
+```
 
 ## Usage
 
